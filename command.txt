@@ -1,0 +1,2 @@
+docker build -t snort_img .
+docker run -it --rm --net=host --cap-add=NET_ADMIN snort_img /bin/bash
